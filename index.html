@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+  <title>dojonary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top">
+    <h1>Dojonary</h1>
+    <label for="search"> </label>
+    <input type="text" name="search" id="search" placeholder="search" />
+    <button onclick="login(this)">login</button>
+  </div>
+
+  <div class="container">
+    <div class="firstcolum">
+      <div class="topcolum">
+        <div class="rttopcolum">
+          <h2>ninja</h2>
+          <i>noun</i>
+          <p>Plural:<em>ninjas</em></p>
+          <button onclick="like()">13 likes</button>
+        </div>
+        <div class="lttopcolum">
+          <p>
+            A practitiones skilled in the
+            <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="lowcolum">
+          <div class="rtlowcolum">
+            <h2>ninja</h2>
+            <i>noun</i>
+            <p>Plural:<em>ninjas</em></p>
+            <button onclick="like()">37 likes</button>
+          </div>
+          <div class="ltlowcolum">
+            <p>
+              A<a href="3">programmer</a> who breaks down problem with
+              <a href="#">zen</a>-like focus
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="add">
+      <p>Dojonary is defined by <span class="you">YOU</span></p>
+      <button onclick="hide(this)">Add Definition</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
